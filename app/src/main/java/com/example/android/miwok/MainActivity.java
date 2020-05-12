@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent numbersIntent = new Intent(MainActivity.this, NumbersActivity.class);
                 startActivity(numbersIntent);
             }
-         });
+        });
 
         // Find the View that shows the family category
         TextView family = findViewById(R.id.family);
